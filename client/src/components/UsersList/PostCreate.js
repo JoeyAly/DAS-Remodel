@@ -5,8 +5,8 @@ const PostCreate = (props) => {
   return (
     <Create title='Create a Post' {...props}>
       <SimpleForm>
-        <TextInput source='title' />
-        <TextInput multiline source='body' />
+        <TextInput source='Name' />
+        <TextInput multiline source='Admin' />
         <DateInput label='Published' source='publishedAt' />
       </SimpleForm>
     </Create>
