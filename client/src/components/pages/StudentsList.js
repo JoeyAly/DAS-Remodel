@@ -4,7 +4,7 @@ import { Admin, Resource } from 'react-admin'
 import restProvider from 'ra-data-simple-rest'
 import PostList from '../UsersList/PostList'
 import PostCreate from '../UsersList/PostCreate'
-
+import PostEdit from '../UsersList/PostEdit'
 
 
 
@@ -18,9 +18,8 @@ class StudentsList extends Component{
         name='posts'
         list={PostList}
         create={PostCreate}
-       
+        edit={PostEdit}
       />
-  
       
     </Admin>
           
