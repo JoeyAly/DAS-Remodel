@@ -3,6 +3,8 @@ import '../../App.css';
 import { Admin, Resource } from 'react-admin'
 import restProvider from 'ra-data-simple-rest'
 import PostList from '../UsersList/PostList'
+import PostCreate from '../UsersList/PostCreate'
+
 
 
 
@@ -14,8 +16,12 @@ class StudentsList extends Component{
           <Admin dataProvider={restProvider('http://localhost:3000')}>
       <Resource
         name='posts'
-        list={PostList}/>
-        
+        list={PostList}
+        create={PostCreate}
+       
+      />
+  
+      
     </Admin>
           
         </div>
