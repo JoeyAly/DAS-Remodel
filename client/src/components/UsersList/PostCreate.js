@@ -5,16 +5,18 @@ const PostCreate = (props) => {
   return (
     <Create title='Create a Post' {...props}>
       <SimpleForm>
+        
+        <TextInput source='Student Name' />
+        <TextInput source='Mentor' />
+        
+        <TextInput source='Email' /> 
+
         <TextInput select source= 'School year'>
           <option value="Freshman">Freshman</option>
           <option value="Sophmore">Sophmore</option>
           <option value="Junior">Junior</option>
           <option value="Senior">Senior</option>
         </TextInput >
-
-        <TextInput source='Email' /> 
-        <TextInput source='Name' />
-        <TextInput multiline source='Admin' />
         <DateInput label='Published' source='publishedAt' />
       </SimpleForm>
     </Create>

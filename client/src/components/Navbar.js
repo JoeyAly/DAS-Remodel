@@ -37,7 +37,7 @@ function Navbar() {
                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                        <li className='nav-item'>
                            <Link to='/UserForms' className='nav-links' onClick={closeMobileMenu}>
-                              Add Hours 
+                              Form Hours 
                            </Link>
                        </li>
                        <li className='nav-item'>

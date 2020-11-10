@@ -5,6 +5,7 @@ import { Admin, Resource } from 'react-admin'
 import restProvider from 'ra-data-simple-rest'
 import FormList from '../FormsList/FormList'
 import FormCreate from '../FormsList/FormCreate'
+import FormEdit from '../FormsList/FormEdit'
 
 class UserForms extends Component{
   render() {
@@ -16,6 +17,7 @@ class UserForms extends Component{
       name='forms'
       list={FormList}
       create={FormCreate}
+      edit={FormEdit}
 
     />
     

@@ -5,15 +5,16 @@ const PostEdit = (props) => {
   return (
     <Edit title='Edit Post' {...props}>
       <SimpleForm>
-        <TextInput source='Student Name' />
-        <TextInput source='Mentor' />
         
-        <TextInput source='Email' />
-        <TextInput select source='School year' />
-        <DateInput label='Published' source='publishedAt' />
+        <TextInput source='hoursServed' />
+        <TextInput select source='Type of Hours' />
+        <TextInput source='goals' />
+        <TextInput source='bio' />
+        <DateInput label='Date of Activity' source='activityDate' />
       </SimpleForm>
     </Edit>
   )
 }
+
 
 export default PostEdit
