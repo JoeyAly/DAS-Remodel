@@ -1,14 +1,25 @@
 import React, { Component} from 'react';
 import '../../App.css';
-import  { UserForm} from '../../components/Form/UserForm';
 
+import { Admin, Resource } from 'react-admin'
+import restProvider from 'ra-data-simple-rest'
+import FormList from '../FormsList/FormList'
+import FormCreate from '../FormsList/FormCreate'
 
 class UserForms extends Component{
   render() {
     return (
-      <div className="UserForms">
+      <div className="StudentsList">
         
-        <UserForm />
+        <Admin dataProvider={restProvider('http://localhost:3000')}>
+    <Resource
+      name='forms'
+      list={FormList}
+      create={FormCreate}
+
+    />
+    
+  </Admin>
         
       </div>
     );

@@ -1,6 +1,35 @@
 {
-  "posts": [],
+  "posts": [
+    {
+      "Email": "joey.aly8@gmail.com",
+      "Name": "Joey Aly",
+      "Admin": "mom",
+      "publishedAt": "2020-12-02",
+      "id": 1
+    }
+  ],
   "users": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "email": "john@example.com"
+    }
+  ],
+  "forms": [
+    {
+      "activityDate": "2020-11-06",
+      "hoursServed": "34",
+      "Type of Hours": "active",
+      "goals": "empathy",
+      "bio": "stuff",
+      "id": 1
+    },
+    {
+      "goals": "explore",
+      "id": 2
+    }
+  ],
+  "details": [
     {
       "id": "1",
       "name": "John Smith",
