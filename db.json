@@ -1,38 +1,14 @@
 {
-  "posts": [
-    {
-      "Email": "joey.aly8@gmail.com",
-      "Name": "Joey Aly",
-      "Admin": "mom",
-      "publishedAt": "2020-12-02",
-      "id": 1
-    }
-  ],
+  "posts": [],
   "users": [
     {
       "id": "1",
       "name": "John Smith",
+      "mentor": "John Smith",
       "email": "john@example.com"
     }
   ],
-  "forms": [
-    {
-      "activityDate": "2020-11-12",
-      "hoursServed": "34",
-      "Type of Hours": "active",
-      "goals": "empathy",
-      "bio": "stuff",
-      "id": 1
-    },
-    {
-      "hoursServed": "34",
-      "activityDate": "2020-11-18",
-      "Type of Hours": "receptive",
-      "goals": "empathy",
-      "bio": "kh",
-      "id": 2
-    }
-  ],
+  "forms": [],
   "details": [
     {
       "id": "1",
