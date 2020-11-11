@@ -7,7 +7,7 @@ const PostEdit = (props) => {
       <SimpleForm>
         
         <TextInput source='hoursServed' />
-        <TextInput select source='Type of Hours' />
+        <TextInput source='Type of Hours' />
         <TextInput source='goals' />
         <TextInput source='bio' />
         <DateInput label='Date of Activity' source='activityDate' />
