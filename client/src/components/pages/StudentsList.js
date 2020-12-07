@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import '../../App.css';
+
 import { Admin, Resource } from 'react-admin'
 import restProvider from 'ra-data-simple-rest'
 import PostList from '../UsersList/PostList'

@@ -14,11 +14,10 @@ export class FormUserDetails extends Component {
         this.props.nextStep();
       
     };
-
     
     render() {
         const { values, handleChange} =this.props;
-        
+
 
         return (
             
@@ -28,9 +27,7 @@ export class FormUserDetails extends Component {
                 <div class="titleCenter">
                     <AppBar
 
-                        title= "Enter User Details " 
-                        
-                     
+                        title= "Enter User Details "     
                     />
                     </div>
                     <div class="center">
@@ -39,9 +36,7 @@ export class FormUserDetails extends Component {
                         floatingLabelText= "Date"
                         onChange={handleChange('activityDate')}
                         defaultValue={values.activityDate}
-                     
-                        
-                    
+        
                 />
                 <br/>
                 <TextField
@@ -94,8 +89,5 @@ const styles ={
     }
 
 }
-
-
-
 
 export default FormUserDetails;

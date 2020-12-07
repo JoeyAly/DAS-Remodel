@@ -15,7 +15,8 @@ import { LoginHooks } from './components/loginhooks';
 import { LogoutHooks } from './components/logouthooks';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Opportunites from './components/pages/Opportunites';
+import StudentOpportunities from './components/pages/StudentOpp/StudentOpportunities';
+
 
 
 
@@ -30,7 +31,9 @@ function App() {
       <Route path='/userForms' component={UserForms}/>
       
       <Route path='/StudentsList' component={StudentsList}/>
-<Route path='/opportunities' component={() => 
+      <Route path='/studentOpportunities' component={StudentOpportunities}/>
+
+      <Route path='/opportunities' component={() => 
   { window.open('https://jerseycares.org', "_blank") 
   || window.location.replace('https://jerseycares.org');}
    }
